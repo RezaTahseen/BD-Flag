@@ -7,22 +7,22 @@ body{
 }
     
 .rectangle{
+    display: inline-block;
     height: 300px;
     width: 500px;
     background-color: #006a4e;
     margin-top: 300px;
     margin-left: 700px;
-    display: inline-block;
-	border: 10px solid #EEE;
+    border: 10px solid #EEE;
 }  
 .circle{
+    display: inline-block;
     height: 150px;
     width: 150px;
     background-color: #f42a41;
     border-radius: 50%;
     margin-left: 175px;
     margin-top: 75px;
-    display: inline-block;
 }
 .clear-div{
     clear: both;
